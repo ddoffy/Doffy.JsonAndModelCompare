@@ -1,0 +1,35 @@
+{
+  "ID" : 1,
+  "Title": "Title",
+  "Name": "Name",
+  "Age": 10,
+  "SubModel": {
+    "Name": "SubName",
+    "Age": 20,
+    "Description": "Description",
+    "MetaData": {
+      "Name": "MetaDataName",
+      "Age": 30
+    },
+    "SubSubModel": {
+      "Title": "SubSubTitle",
+      "Name": "SubSubName",
+      "Age": 30,
+        "Description": "SubSubDescription"
+    }
+  },
+  "SubArrayModel": {
+    "Name": "SubArrayName",
+    "Age": 30,
+    "SubModels": [
+      {
+        "Name": "SubArrayName1",
+        "Age": 40
+      },
+      {
+        "Name": "SubArrayName2",
+        "Age": 50
+      }
+    ]
+  }
+}
